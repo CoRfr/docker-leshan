@@ -10,11 +10,11 @@ Run
 
 Server:
 ``
-docker run --rm -ti corfr/leshan
+docker run --rm -ti --name leshan-server corfr/leshan
 ``
 
 Bootstrap server:
 ``
-docker run --rm -ti corfr/leshan:bootstrap
+docker run --rm -ti --name leshan-bootstrap --link leshan-server corfr/leshan bootstrap
 ``
 `
