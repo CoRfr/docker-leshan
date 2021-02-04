@@ -18,7 +18,7 @@ case $SERVICE in
   bootstrap|bsserver)
     java -jar ./leshan-bsserver-demo.jar "$@" ;;
   bsserver-rotkey)
-    java -jar ../leshan-bsserver-rotkey/target/leshan-bsserver-rotkey-0.0.1-SNAPSHOT-jar-with-dependencies.jar "$@" ;;
+    java -jar ./leshan-bsserver-rotkey/target/leshan-bsserver-rotkey-0.0.1-SNAPSHOT-jar-with-dependencies.jar "$@" ;;
   *)
     echo "Usage: <server|bootstrap>"
     exit 1
