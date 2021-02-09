@@ -2,7 +2,7 @@
 
 apk add --no-cache git maven
 
-git clone https://github.com/CoRfr/leshan-bsserver-rotkey
+git clone https://github.com/swi-infra/leshan-bsserver-rotkey
 
 cd leshan-bsserver-rotkey
 
